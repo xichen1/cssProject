@@ -1,0 +1,144 @@
+.header {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header__container {
+  font-size: 1.6rem;
+  background-color: #8E354A;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  height: 10rem;
+  align-items: center;
+}
+.header__text {
+  color: #f4f2f2;
+  margin: 0;
+  font-weight: 300;
+  margin-right: auto;
+  padding-left: 2rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-radius: 300px;
+  background-color: #f4f2f2;
+  overflow: hidden;
+  height: 3.8rem;
+  border-radius: 30px;
+  width: 3.8rem;
+  transition: ease-in-out 0.5s;
+}
+.search:hover {
+  width: 23.8rem;
+}
+.search__input {
+  height: 3rem;
+  border: none;
+  width: 0px;
+  transition: transform 0.3s;
+  float: left;
+  transition: ease-in-out 0.5s;
+  outline: none;
+  margin-right: -3px;
+  background-color: #f4f2f2;
+  color: #8E354A;
+  font-size: 1.8rem;
+}
+.search__input::placeholder {
+  color: #8E354A;
+}
+.search:hover .search__input {
+  width: 200px;
+  padding-left: 5px;
+}
+.search__btn {
+  cursor: pointer;
+  border: none;
+  height: 3.8rem;
+  width: 3.8rem;
+  background-color: #f4f2f2;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search__btn:focus {
+  outline: none;
+}
+.search__icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  fill: #8E354A;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+.user__btn {
+  background-color: #8E354A;
+  border-radius: 50%;
+  border: 2px solid #f4f2f2;
+  margin: 1rem;
+  padding: 0.1rem;
+  cursor: pointer;
+}
+.user__btn:focus {
+  outline: none;
+}
+.user__icon {
+  height: 2.8rem;
+  width: 3rem;
+  fill: #f4f2f2;
+  outline: none;
+}
+.user__use {
+  color: #f4f2f2;
+}
+.user__use a:link, .user__use a:visited {
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f4f2f2;
+  padding-bottom: 2px;
+}
+.user__use a:hover {
+  border-bottom: 1.5px solid #f4f2f2;
+}
+.user__use a:active {
+  color: #ccc;
+  border-bottom: 1.5px solid #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

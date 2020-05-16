@@ -1,0 +1,44 @@
+
+@import './variables';
+@import './mixin';
+@import './transition';
+@import './layout';
+@import './typography';
+@import './utilities';
+@import './components';
+
+
+// begin your work
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; // 1 rem = 10px
+
+}
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+
+}
+
+h1{
+  margin: 0;
+}
